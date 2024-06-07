@@ -15,16 +15,16 @@ cyberdream.normal = {
     z = { fg = colors.grey, bg = colors.bg },
 }
 cyberdream.insert = {
-    a = { fg = colors.green, bg = colors.bg },
-    z = { fg = colors.grey, bg = colors.bg },
+    a = { bg = colors.green, fg = colors.bgAlt },
+    z = { bg = colors.grey, fg = colors.bg },
 }
 cyberdream.visual = {
-    a = { fg = colors.magenta, bg = colors.bg },
-    z = { fg = colors.grey, bg = colors.bg },
+    a = { bg = colors.magenta, fg = colors.bgAlt },
+    z = { bg = colors.grey, fg = colors.bg },
 }
 cyberdream.terminal = {
-    a = { fg = colors.orange, bg = colors.bg },
-    z = { fg = colors.grey, bg = colors.bg },
+    a = { bg = colors.orange, fg = colors.bgAlt },
+    z = { bg = colors.grey, fg = colors.bg },
 }
 
 return cyberdream

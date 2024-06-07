@@ -60,7 +60,7 @@ function M.setup()
         SignColumnSB = { fg = t.grey, bg = t.bg },
         Substitute = { fg = t.red, bg = t.bgHighlight },
         LineNr = { fg = util.blend(t.bgHighlight, t.fg, 0.9) },
-        CursorLineNr = { fg = t.grey },
+        CursorLineNr = { fg = t.orange },
         MatchParen = { fg = t.pink, bg = t.bgHighlight },
         ModeMsg = { fg = t.fg },
         MsgArea = { fg = t.fg },
@@ -70,7 +70,7 @@ function M.setup()
         NormalNC = { fg = t.fg, bg = t.bg },
         NormalFloat = { fg = t.fg, bg = t.bg },
         FloatTitle = { fg = t.fg, bg = t.bgHighlight },
-        FloatBorder = { fg = t.grey, bg = t.bg },
+        FloatBorder = { fg = t.orange, bg = t.bg },
         Pmenu = { fg = t.fg, bg = t.bg },
         PmenuSel = { fg = t.fg, bg = t.bgHighlight },
         PmenuSbar = { fg = t.bg, bg = t.bgHighlight },
@@ -117,7 +117,7 @@ function M.setup()
 
         Debug = { fg = t.orange },
 
-        Underlined = { style = "underline" },
+        Underlined = { style = "undercurl" },
         Bold = { style = "bold" },
         Italic = { style = "italic" },
 
